@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk.git",
+  "repository": "https://github.com/sushiswap/sushiswap-sdk-fork.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -18,8 +18,7 @@
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "test": "tsdx test"
   },
   "dependencies": {
     "@uniswap/v2-core": "^1.0.0",
